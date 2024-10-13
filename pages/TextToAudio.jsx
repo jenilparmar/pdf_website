@@ -1,6 +1,6 @@
 import Voices from "@/Components/Voices";
 import React, { useState } from "react";
-import speak from "./TextToSpeech/speak";
+import speak from "./speak";
 import AppFooter from "@/Components/AppFooter";
 
 function TextToAudio() {
