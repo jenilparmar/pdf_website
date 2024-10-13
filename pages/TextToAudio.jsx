@@ -1,9 +1,20 @@
 'use client'
 import Voices from "@/Components/Voices";
 import React, { useState } from "react";
-import speak from "./speak";
-import AppFooter from "@/Components/AppFooter";
 
+import AppFooter from "@/Components/AppFooter";
+function speak(text , voiceNumber=0) {
+  // Create a SpeechSynthesisUtterance
+  const utterance = new SpeechSynthesisUtterance(text);
+
+  // Select a voice
+  const voices = speechSynthesis.getVoices();
+  utterance.voice = voices[voiceNumber]; // Choose a specific voice
+  
+  
+  // Speak the text
+  speechSynthesis.speak(utterance);
+}
 function TextToAudio() {
   const [text, setText] = useState("This is a Sample voice");
   const [voiceNumber, setVoiceNumber] = useState(0);
