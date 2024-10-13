@@ -66,7 +66,7 @@ const AppFooter = () => {
           </li>
         </nav>
       </div>
- <FooterLinks/>
+ <FooterLinks/> 
     </div>
   </div>
  

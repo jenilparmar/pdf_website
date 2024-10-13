@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-fit flex justify-between px-2 flex-row pt-2 md:pt-4 md:px-5 fixed top-0">
+    <div className="w-full h-fit bg-white flex justify-between px-2 flex-row pt-2 md:pt-4 md:px-5 fixed top-0">
       <div className="flex flex-row">
 <Link href={'/'} className="flex flex-row">
 <Image src={'/image-removebg-preview.png'} width={50} height={70} /> 
