@@ -29,16 +29,20 @@ export default function Home() {
                 </p>
               </span>
             </Link>{" "}
+     
+
             <span className="w-[25vw] h-[12vh] gap-2 active:scale-95 transition-all duration-150 rounded-xl md:w-[20vw] md:h-[30vh] bg-white border-2 hover:border-blue-500 active:border-blue-500  justify-center flex flex-col">
               <FaRegFilePdf className="self-center font-bold text-3xl text-blue-500 md:text-4xl" />
               <p className="text-center font-medium md:text-2xl  ">
                 Pdf to Img
               </p>
             </span>
-            <span className="w-[25vw] h-[12vh] gap-2 active:scale-95 transition-all duration-150 rounded-xl md:w-[20vw] md:h-[30vh] bg-white border-2 hover:border-blue-500 active:border-blue-500  justify-center flex flex-col">
+<Link href={"/Lockpdf2"}>
+       <span className="w-[25vw] h-[12vh] gap-2 active:scale-95 transition-all duration-150 rounded-xl md:w-[20vw] md:h-[30vh] bg-white border-2 hover:border-blue-500 active:border-blue-500  justify-center flex flex-col">
               <AiOutlineFileProtect className="self-center font-bold text-3xl text-blue-500 md:text-4xl" />
               <p className="text-center font-medium md:text-2xl">Protector</p>
             </span>
+</Link>
           </div>
           <div className="flex flex-row gap-5 mt-10 md:mt-0 md:flex-row md:justify-center md:gap-16 justify-center">
             <span className="w-[25vw] h-[12vh] gap-2 active:scale-95 transition-all duration-150 rounded-xl md:w-[20vw] md:h-[30vh] bg-white border-2 hover:border-blue-500 active:border-blue-500  justify-center flex flex-col">
