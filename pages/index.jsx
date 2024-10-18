@@ -49,10 +49,13 @@ export default function Home() {
               <FaCompressArrowsAlt className="self-center font-bold text-3xl text-blue-500 md:text-4xl" />
               <p className="text-center font-medium md:text-2xl  ">Compress</p>
             </span>
+            <Link href={"/MergePdf"}>
+
             <span className="w-[25vw] h-[12vh] gap-2 active:scale-95 transition-all duration-150 rounded-xl md:w-[20vw] md:h-[30vh] bg-white border-2 hover:border-blue-500 active:border-blue-500  justify-center flex flex-col">
               <LuMerge className="self-center font-bold text-3xl text-blue-500 md:text-4xl" />
               <p className="text-center font-medium md:text-2xl  ">Merge pdf</p>
             </span>
+            </Link>
             <span className="w-[25vw] h-[12vh] gap-2 active:scale-95 transition-all duration-150 rounded-xl md:w-[20vw] md:h-[30vh] bg-white border-2 hover:border-blue-500 active:border-blue-500  justify-center flex flex-col">
               <MdContentCut className="self-center font-bold text-3xl text-blue-500 md:text-4xl" />
               <p className="text-center font-medium md:text-2xl  ">
